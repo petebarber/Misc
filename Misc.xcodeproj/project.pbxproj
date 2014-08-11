@@ -7,54 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BBA4B61C1998D5680092431F /* Beta2Subclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA4B61B1998D5680092431F /* Beta2Subclass.swift */; };
+		BBA4B61E1998D9280092431F /* SpaceshipNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA4B61D1998D9280092431F /* SpaceshipNode.swift */; };
+		BBA4B6201998D9900092431F /* CustomSpriteNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA4B61F1998D9900092431F /* CustomSpriteNode.swift */; };
+		BBA4B6221998DA480092431F /* NonSpriteKitExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA4B6211998DA480092431F /* NonSpriteKitExamples.swift */; };
+		BBA4B6241998DA770092431F /* CustomNodeWithInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA4B6231998DA770092431F /* CustomNodeWithInitializer.swift */; };
 		C150740B1996303A0062A015 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C150740A1996303A0062A015 /* AppDelegate.swift */; };
 		C150740D1996303B0062A015 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C150740C1996303A0062A015 /* GameScene.sks */; };
 		C150740F1996303B0062A015 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C150740E1996303B0062A015 /* GameScene.swift */; };
 		C15074111996303B0062A015 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15074101996303B0062A015 /* GameViewController.swift */; };
 		C15074141996303B0062A015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C15074121996303B0062A015 /* Main.storyboard */; };
 		C15074161996303B0062A015 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C15074151996303B0062A015 /* Images.xcassets */; };
-		C15074221996303B0062A015 /* HowToSubClassSKSpriteNodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15074211996303B0062A015 /* HowToSubClassSKSpriteNodeTests.swift */; };
-		C150742E199782450062A015 /* Dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C150742D199782450062A015 /* Dummy.m */; };
-		C1D841941978624300F95B6B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1D841931978624300F95B6B /* main.cpp */; };
-		C1D841961978624300F95B6B /* Misc.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C1D841951978624300F95B6B /* Misc.1 */; };
-		C1D841B01978628A00F95B6B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1D841AF1978628A00F95B6B /* main.cpp */; };
-		C1D841B21978628A00F95B6B /* TMPTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C1D841B11978628A00F95B6B /* TMPTest.1 */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		C150741C1996303B0062A015 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C1D841881978624300F95B6B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C15074051996303A0062A015;
-			remoteInfo = HowToSubClassSKSpriteNode;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		C1D8418E1978624300F95B6B /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-				C1D841961978624300F95B6B /* Misc.1 in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-		C1D841AB1978628A00F95B6B /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-				C1D841B21978628A00F95B6B /* TMPTest.1 in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
+		BBA4B61B1998D5680092431F /* Beta2Subclass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beta2Subclass.swift; sourceTree = "<group>"; };
+		BBA4B61D1998D9280092431F /* SpaceshipNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceshipNode.swift; sourceTree = "<group>"; };
+		BBA4B61F1998D9900092431F /* CustomSpriteNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSpriteNode.swift; sourceTree = "<group>"; };
+		BBA4B6211998DA480092431F /* NonSpriteKitExamples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonSpriteKitExamples.swift; sourceTree = "<group>"; };
+		BBA4B6231998DA770092431F /* CustomNodeWithInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNodeWithInitializer.swift; sourceTree = "<group>"; };
 		C15074061996303A0062A015 /* HowToSubClassSKSpriteNode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowToSubClassSKSpriteNode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C15074091996303A0062A015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C150740A1996303A0062A015 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,45 +34,10 @@
 		C15074101996303B0062A015 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		C15074131996303B0062A015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C15074151996303B0062A015 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C150741B1996303B0062A015 /* HowToSubClassSKSpriteNodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowToSubClassSKSpriteNodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C15074201996303B0062A015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C15074211996303B0062A015 /* HowToSubClassSKSpriteNodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToSubClassSKSpriteNodeTests.swift; sourceTree = "<group>"; };
-		C150742B1997820A0062A015 /* MyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyProtocol.h; sourceTree = "<group>"; };
-		C150742C199782440062A015 /* HowToSubClassSKSpriteNode-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HowToSubClassSKSpriteNode-Bridging-Header.h"; sourceTree = "<group>"; };
-		C150742D199782450062A015 /* Dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dummy.m; sourceTree = "<group>"; };
-		C1D841901978624300F95B6B /* Misc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Misc; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1D841931978624300F95B6B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		C1D841951978624300F95B6B /* Misc.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Misc.1; sourceTree = "<group>"; };
-		C1D841A21978626700F95B6B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		C1D841A41978626700F95B6B /* TMPTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TMPTest.1; sourceTree = "<group>"; };
-		C1D841AD1978628A00F95B6B /* TMPTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TMPTest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1D841AF1978628A00F95B6B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		C1D841B11978628A00F95B6B /* TMPTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TMPTest.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C15074031996303A0062A015 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C15074181996303B0062A015 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1D8418D1978624300F95B6B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1D841AA1978628A00F95B6B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -121,6 +57,11 @@
 				C15074121996303B0062A015 /* Main.storyboard */,
 				C15074151996303B0062A015 /* Images.xcassets */,
 				C15074081996303A0062A015 /* Supporting Files */,
+				BBA4B61B1998D5680092431F /* Beta2Subclass.swift */,
+				BBA4B61D1998D9280092431F /* SpaceshipNode.swift */,
+				BBA4B6231998DA770092431F /* CustomNodeWithInitializer.swift */,
+				BBA4B61F1998D9900092431F /* CustomSpriteNode.swift */,
+				BBA4B6211998DA480092431F /* NonSpriteKitExamples.swift */,
 			);
 			path = HowToSubClassSKSpriteNode;
 			sourceTree = "<group>";
@@ -133,74 +74,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C150741E1996303B0062A015 /* HowToSubClassSKSpriteNodeTests */ = {
-			isa = PBXGroup;
-			children = (
-				C15074211996303B0062A015 /* HowToSubClassSKSpriteNodeTests.swift */,
-				C150741F1996303B0062A015 /* Supporting Files */,
-			);
-			path = HowToSubClassSKSpriteNodeTests;
-			sourceTree = "<group>";
-		};
-		C150741F1996303B0062A015 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C15074201996303B0062A015 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		C1D841871978624300F95B6B = {
 			isa = PBXGroup;
 			children = (
-				C150742B1997820A0062A015 /* MyProtocol.h */,
-				C150742D199782450062A015 /* Dummy.m */,
-				C1D841921978624300F95B6B /* Misc */,
-				C1D841A11978626700F95B6B /* TMPTest */,
-				C1D841AE1978628A00F95B6B /* TMPTest */,
 				C15074071996303A0062A015 /* HowToSubClassSKSpriteNode */,
-				C150741E1996303B0062A015 /* HowToSubClassSKSpriteNodeTests */,
 				C1D841911978624300F95B6B /* Products */,
-				C150742C199782440062A015 /* HowToSubClassSKSpriteNode-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
 		C1D841911978624300F95B6B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C1D841901978624300F95B6B /* Misc */,
-				C1D841AD1978628A00F95B6B /* TMPTest */,
 				C15074061996303A0062A015 /* HowToSubClassSKSpriteNode.app */,
-				C150741B1996303B0062A015 /* HowToSubClassSKSpriteNodeTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		C1D841921978624300F95B6B /* Misc */ = {
-			isa = PBXGroup;
-			children = (
-				C1D841931978624300F95B6B /* main.cpp */,
-				C1D841951978624300F95B6B /* Misc.1 */,
-			);
-			path = Misc;
-			sourceTree = "<group>";
-		};
-		C1D841A11978626700F95B6B /* TMPTest */ = {
-			isa = PBXGroup;
-			children = (
-				C1D841A21978626700F95B6B /* main.cpp */,
-				C1D841A41978626700F95B6B /* TMPTest.1 */,
-			);
-			path = TMPTest;
-			sourceTree = "<group>";
-		};
-		C1D841AE1978628A00F95B6B /* TMPTest */ = {
-			isa = PBXGroup;
-			children = (
-				C1D841AF1978628A00F95B6B /* main.cpp */,
-				C1D841B11978628A00F95B6B /* TMPTest.1 */,
-			);
-			path = TMPTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,58 +110,6 @@
 			productReference = C15074061996303A0062A015 /* HowToSubClassSKSpriteNode.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C150741A1996303B0062A015 /* HowToSubClassSKSpriteNodeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C15074281996303B0062A015 /* Build configuration list for PBXNativeTarget "HowToSubClassSKSpriteNodeTests" */;
-			buildPhases = (
-				C15074171996303B0062A015 /* Sources */,
-				C15074181996303B0062A015 /* Frameworks */,
-				C15074191996303B0062A015 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C150741D1996303B0062A015 /* PBXTargetDependency */,
-			);
-			name = HowToSubClassSKSpriteNodeTests;
-			productName = HowToSubClassSKSpriteNodeTests;
-			productReference = C150741B1996303B0062A015 /* HowToSubClassSKSpriteNodeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C1D8418F1978624300F95B6B /* Misc */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C1D841991978624300F95B6B /* Build configuration list for PBXNativeTarget "Misc" */;
-			buildPhases = (
-				C1D8418C1978624300F95B6B /* Sources */,
-				C1D8418D1978624300F95B6B /* Frameworks */,
-				C1D8418E1978624300F95B6B /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Misc;
-			productName = Misc;
-			productReference = C1D841901978624300F95B6B /* Misc */;
-			productType = "com.apple.product-type.tool";
-		};
-		C1D841AC1978628A00F95B6B /* TMPTest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C1D841B31978628A00F95B6B /* Build configuration list for PBXNativeTarget "TMPTest" */;
-			buildPhases = (
-				C1D841A91978628A00F95B6B /* Sources */,
-				C1D841AA1978628A00F95B6B /* Frameworks */,
-				C1D841AB1978628A00F95B6B /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TMPTest;
-			productName = TMPTest;
-			productReference = C1D841AD1978628A00F95B6B /* TMPTest */;
-			productType = "com.apple.product-type.tool";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -286,10 +121,6 @@
 				TargetAttributes = {
 					C15074051996303A0062A015 = {
 						CreatedOnToolsVersion = 6.0;
-					};
-					C150741A1996303B0062A015 = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = C15074051996303A0062A015;
 					};
 				};
 			};
@@ -306,10 +137,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C1D8418F1978624300F95B6B /* Misc */,
-				C1D841AC1978628A00F95B6B /* TMPTest */,
 				C15074051996303A0062A015 /* HowToSubClassSKSpriteNode */,
-				C150741A1996303B0062A015 /* HowToSubClassSKSpriteNodeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -325,13 +153,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C15074191996303B0062A015 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -339,46 +160,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA4B6221998DA480092431F /* NonSpriteKitExamples.swift in Sources */,
 				C150740F1996303B0062A015 /* GameScene.swift in Sources */,
+				BBA4B61C1998D5680092431F /* Beta2Subclass.swift in Sources */,
+				BBA4B6241998DA770092431F /* CustomNodeWithInitializer.swift in Sources */,
+				BBA4B61E1998D9280092431F /* SpaceshipNode.swift in Sources */,
+				BBA4B6201998D9900092431F /* CustomSpriteNode.swift in Sources */,
 				C15074111996303B0062A015 /* GameViewController.swift in Sources */,
-				C150742E199782450062A015 /* Dummy.m in Sources */,
 				C150740B1996303A0062A015 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C15074171996303B0062A015 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C15074221996303B0062A015 /* HowToSubClassSKSpriteNodeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1D8418C1978624300F95B6B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C1D841941978624300F95B6B /* main.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1D841A91978628A00F95B6B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C1D841B01978628A00F95B6B /* main.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C150741D1996303B0062A015 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C15074051996303A0062A015 /* HowToSubClassSKSpriteNode */;
-			targetProxy = C150741C1996303B0062A015 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C15074121996303B0062A015 /* Main.storyboard */ = {
@@ -411,7 +204,8 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "HowToSubClassSKSpriteNode-Bridging-Header.h";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -431,52 +225,8 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "HowToSubClassSKSpriteNode-Bridging-Header.h";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		C15074251996303B0062A015 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = HowToSubClassSKSpriteNodeTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HowToSubClassSKSpriteNode.app/HowToSubClassSKSpriteNode";
-			};
-			name = Debug;
-		};
-		C15074261996303B0062A015 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = HowToSubClassSKSpriteNodeTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HowToSubClassSKSpriteNode.app/HowToSubClassSKSpriteNode";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -551,40 +301,6 @@
 			};
 			name = Release;
 		};
-		C1D8419A1978624300F95B6B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		C1D8419B1978624300F95B6B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		C1D841B41978628A00F95B6B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		C1D841B51978628A00F95B6B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -595,38 +311,13 @@
 				C15074241996303B0062A015 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		C15074281996303B0062A015 /* Build configuration list for PBXNativeTarget "HowToSubClassSKSpriteNodeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C15074251996303B0062A015 /* Debug */,
-				C15074261996303B0062A015 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1D8418B1978624300F95B6B /* Build configuration list for PBXProject "Misc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C1D841971978624300F95B6B /* Debug */,
 				C1D841981978624300F95B6B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C1D841991978624300F95B6B /* Build configuration list for PBXNativeTarget "Misc" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C1D8419A1978624300F95B6B /* Debug */,
-				C1D8419B1978624300F95B6B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C1D841B31978628A00F95B6B /* Build configuration list for PBXNativeTarget "TMPTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C1D841B41978628A00F95B6B /* Debug */,
-				C1D841B51978628A00F95B6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
