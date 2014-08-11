@@ -12,6 +12,7 @@
 		BBA4B6201998D9900092431F /* CustomSpriteNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA4B61F1998D9900092431F /* CustomSpriteNode.swift */; };
 		BBA4B6221998DA480092431F /* NonSpriteKitExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA4B6211998DA480092431F /* NonSpriteKitExamples.swift */; };
 		BBA4B6241998DA770092431F /* CustomNodeWithInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA4B6231998DA770092431F /* CustomNodeWithInitializer.swift */; };
+		BBA4B62619992F500092431F /* SpaceshipIdeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA4B62519992F500092431F /* SpaceshipIdeal.swift */; };
 		C150740B1996303A0062A015 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C150740A1996303A0062A015 /* AppDelegate.swift */; };
 		C150740D1996303B0062A015 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C150740C1996303A0062A015 /* GameScene.sks */; };
 		C150740F1996303B0062A015 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C150740E1996303B0062A015 /* GameScene.swift */; };
@@ -26,6 +27,7 @@
 		BBA4B61F1998D9900092431F /* CustomSpriteNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSpriteNode.swift; sourceTree = "<group>"; };
 		BBA4B6211998DA480092431F /* NonSpriteKitExamples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonSpriteKitExamples.swift; sourceTree = "<group>"; };
 		BBA4B6231998DA770092431F /* CustomNodeWithInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNodeWithInitializer.swift; sourceTree = "<group>"; };
+		BBA4B62519992F500092431F /* SpaceshipIdeal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceshipIdeal.swift; sourceTree = "<group>"; };
 		C15074061996303A0062A015 /* HowToSubClassSKSpriteNode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowToSubClassSKSpriteNode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C15074091996303A0062A015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C150740A1996303A0062A015 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 				C150740A1996303A0062A015 /* AppDelegate.swift */,
 				C150740C1996303A0062A015 /* GameScene.sks */,
 				C150740E1996303B0062A015 /* GameScene.swift */,
+				BBA4B62519992F500092431F /* SpaceshipIdeal.swift */,
 				C15074101996303B0062A015 /* GameViewController.swift */,
 				C15074121996303B0062A015 /* Main.storyboard */,
 				C15074151996303B0062A015 /* Images.xcassets */,
@@ -164,6 +167,7 @@
 				C150740F1996303B0062A015 /* GameScene.swift in Sources */,
 				BBA4B61C1998D5680092431F /* Beta2Subclass.swift in Sources */,
 				BBA4B6241998DA770092431F /* CustomNodeWithInitializer.swift in Sources */,
+				BBA4B62619992F500092431F /* SpaceshipIdeal.swift in Sources */,
 				BBA4B61E1998D9280092431F /* SpaceshipNode.swift in Sources */,
 				BBA4B6201998D9900092431F /* CustomSpriteNode.swift in Sources */,
 				C15074111996303B0062A015 /* GameViewController.swift in Sources */,

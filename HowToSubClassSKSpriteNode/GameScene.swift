@@ -16,34 +16,28 @@ class GameScene: SKScene {
         //addCustomSpriteNodeWithInitializer()
     }
     
-	func addSimpleSpriteNode()
-	{
+	func addSimpleSpriteNode() {
 		let sprite = SKSpriteNode(imageNamed: "Spaceship")
 		sprite.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
 		self.addChild(sprite)
 	}
 	
-	func addSpaceshipNode()
-	{
+	func addSpaceshipNode() {
 		let sprite = Spaceship()
 		sprite.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
 		self.addChild(sprite)
 		
 	}
 	
-	func addCustomSpriteNode()
-	{
+	func addCustomSpriteNode() {
 		let sprite = CustomSpriteNode(imageNamed: "Spaceship")
 		sprite.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
 		self.addChild(sprite)
 	}
     
-    func addCustomSpriteNodeWithInitializer()
-    {
+    func addCustomSpriteNodeWithInitializer() {
         let sprite = CustomSpriteNodeWithInitializer(myName: "FunkyName", imageNamed: "Spaceship")
         sprite.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
         self.addChild(sprite)
-        
     }
-    
 }
