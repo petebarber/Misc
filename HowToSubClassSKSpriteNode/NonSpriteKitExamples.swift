@@ -36,3 +36,11 @@ class MyBar1 : MyFoo
 {
     
 }
+
+class MyBar2 : MyBar1
+{
+    init(a: Int, b: Int)
+    {
+        super.init(value: 0)
+    }
+}

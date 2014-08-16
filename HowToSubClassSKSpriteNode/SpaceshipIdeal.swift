@@ -12,12 +12,7 @@ class SpaceshipIdeal : SKSpriteNode
 {
     // Other properties & methods ...
     
-    required init(coder aDecoder: NSCoder!)
-    {
-        super.init(coder: aDecoder)
-    }
-    
-    override init()
+    override init(/* params */)
     {
         super.init(imageNamed: "Spaceship")
     }

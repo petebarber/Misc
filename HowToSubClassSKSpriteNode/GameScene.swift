@@ -14,6 +14,8 @@ class GameScene: SKScene {
 		//addSpaceshipNode()
 		//addCustomSpriteNode()
         //addCustomSpriteNodeWithInitializer()
+        addWorkingSpaceship()
+
     }
     
 	func addSimpleSpriteNode() {
@@ -39,5 +41,27 @@ class GameScene: SKScene {
         let sprite = CustomSpriteNodeWithInitializer(myName: "FunkyName", imageNamed: "Spaceship")
         sprite.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
         self.addChild(sprite)
+    }
+    
+    func addWorkingSpaceship() {
+        let sprite = WorkingSpaceship(fuel: 10)
+        sprite.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
+        self.addChild(sprite)
+        
+    }
+    
+    func addSimpleSpriteNodeWithComponents()
+    {
+        class SpaceshipInfo
+        {
+            init(funkyName: String) { /* Stuff */ }
+        }
+
+        let sprite = SKSpriteNode(imageNamed: "Spaceship")
+        sprite.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
+        self.addChild(sprite)
+        
+        userData = NSMutableDictionary()
+        userData["SpaceshipInfo"] = SpaceshipInfo(funkyName: "Hello")
     }
 }
