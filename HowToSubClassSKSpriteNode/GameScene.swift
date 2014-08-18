@@ -15,6 +15,7 @@ class GameScene: SKScene {
 		//addCustomSpriteNode()
         //addCustomSpriteNodeWithInitializer()
         addWorkingSpaceship()
+        //almost()
 
     }
     
@@ -49,6 +50,14 @@ class GameScene: SKScene {
         self.addChild(sprite)
         
     }
+    
+    func almost() {
+        let sprite = MySKSpriteNode(imageNamed: "Spaceship")
+        sprite.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
+        self.addChild(sprite)
+        
+    }
+    
     
     func addSimpleSpriteNodeWithComponents()
     {

@@ -18,3 +18,18 @@ class SpaceshipIdeal : SKSpriteNode
     }
 }
 */
+
+class SSInfo
+{
+    init(funkyName: String)
+    {
+        
+    }
+}
+
+func f()
+{
+    var s = SKSpriteNode(imageNamed: "Spaceship")
+    s.userData = NSMutableDictionary()
+    s.userData["foo"] = SSInfo(funkyName: "Hello")
+}
